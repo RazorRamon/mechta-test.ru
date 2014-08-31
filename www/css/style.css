@@ -1,0 +1,356 @@
+/* Verstal: V V P */
+/* portnovlaboratory.ru */
+
+/* General styles */
+
+html {
+	width: 100%;
+	background: url('/images/bg.jpg') repeat-x center top transparent;
+}
+
+html, body {
+	height: 100%;
+}
+
+* {
+	margin: 0px;
+}
+
+body {
+	width: 100%;
+}
+
+* {
+	-moz-box-sizing: border-box; /* Для Firefox */  
+	box-sizing: border-box; /* Ширина блока с полями */
+}
+
+.clear_div {
+	clear: both;
+}
+
+/* ------ */
+/* HEADER */
+/* ------ */
+
+#shopwindow {
+	background: transparent;
+	width: 1146px;
+	height: 334px;
+	margin: 46px auto;
+}
+
+header {
+	background: transparent;
+	width: 1170px;
+	height: 60px;
+	margin: 46px auto;
+}
+
+/* LOGOTIP */
+
+#logotip {
+	float: left;
+	width: 650px;
+	height: 60px;
+	margin: 16px 0;
+}
+
+#logotip .left {
+	float: left;
+	width: 260px;
+	height: 60px;
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 24px;
+	line-height: 30px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+#logotip .left span{
+	color: #b6b6b6;
+	text-align: left;
+	margin-right: 85px;
+}
+
+#logotip .center {
+	float: left;
+	display: block;
+	background: url('/images/logo.png') no-repeat 0 0px transparent;
+	width: 182px;
+	height: 58px;
+	margin: -2px 18px 0 0;
+}
+
+#logotip .right {
+	float: left;
+	width: 170px;
+	height: 60px;
+	color: #b0b0b0;
+    font-family: "Trebuchet MS";
+    font-size: 17px;
+	line-height: 26px;
+	text-align: left;
+	margin: 8px 0 0;
+}
+
+#logotip .right span{
+	color: #636363;
+}
+
+/* top_menu */
+
+#top_menu {
+	float: left;
+	position: relative;
+	width: 480px;
+	height: 60px;
+	margin-left: 35px;
+}
+
+#top_menu ul {
+	width: 480px;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#top_menu ul li {
+	float: left;
+	display: inline-block;
+	background: url('/images/marker_normal.png') no-repeat 0 8px transparent;
+	width: 150px;
+	height: 26px;
+	padding: 0 0 0 15px;
+}
+
+#top_menu ul li:nth-child(2) {
+	width: 160px;
+	margin: 0px 85px 0 0;
+}
+
+#top_menu ul li:nth-child(4), #top_menu ul li:nth-child(7) {
+	width: 210px;
+	margin: 0px 20px 0 0;
+}
+
+#top_menu ul li:nth-child(5), #top_menu ul li:nth-child(8) {
+	width: 100px;
+}
+
+#top_menu ul li a {
+    display: block;
+    line-height: 20px;
+	color: #c4161c;
+    font-family: "Trebuchet MS";
+    font-size: 15px;
+	text-decoration: none;
+}
+
+#top_menu ul li.active {
+	background: url('/images/marker_active.png') no-repeat 0 8px transparent;
+}
+
+#top_menu ul li:hover a {
+	color: #494848;
+}
+
+#top_menu .soc_ico {
+	float: right;
+	position: absolute;
+	width: 140px;
+	height: 26px;
+	z-index: 100;
+	margin: -10px 0 0 350px;
+}
+
+#top_menu .soc_ico-1 {
+	float: left;
+	display: block;
+	background: url('/images/soc_ico1.png') no-repeat 0 0;
+	width: 26px;
+	height: 26px;
+	margin-right: 10px;
+}
+
+#top_menu .soc_ico-1:hover {
+	background: url('/images/soc_ico1-over.png') no-repeat 0 0;
+}
+
+#top_menu .soc_ico-2 {
+	float: left;
+	display: block;
+	background: url('/images/soc_ico2.png') no-repeat 0 0;
+	width: 26px;
+	height: 26px;
+	margin-right: 10px;
+}
+
+#top_menu .soc_ico-2:hover {
+	background: url('/images/soc_ico2-over.png') no-repeat 0 0;
+}
+
+#top_menu .soc_ico-3 {
+	float: left;
+	display: block;
+	background: url('/images/soc_ico3.png') no-repeat 0 0;
+	width: 26px;
+	height: 26px;
+	margin-right: 10px;
+}
+
+#top_menu .soc_ico-3:hover {
+	background: url('/images/soc_ico3-over.png') no-repeat 0 0;
+}
+
+#top_menu .soc_ico-4 {
+	float: left;
+	display: block;
+	width: 26px;
+	height: 26px;
+	background: url('/images/soc_ico4.png') no-repeat 0 0;
+}
+
+#top_menu .soc_ico-4:hover {
+	background: url('/images/soc_ico4-over.png') no-repeat 0 0;
+}
+
+/* ---- */
+/* MAIN */
+/* ---- */
+
+main {
+	background: transparent;
+	width: 1170px;
+	margin: 0px auto;
+}
+
+main .left {
+	float: left;
+	width: 406px;
+	margin: 0px auto;
+}
+
+main h2 {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    line-height: 20px;
+	font-weight: normal;
+	margin-bottom: 18px;
+}
+
+main p {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 18px;
+	text-align: justify;
+	margin-bottom: 23px;
+}
+
+main p.quote {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 18px;
+	font-style: italic;
+	text-align: left;
+	margin-bottom: 33px;
+}
+
+main .podpis {
+	background: url('/images/podpis.png') no-repeat 0 0;
+	width: 399px;
+	height: 32px;
+	margin-top: 36px;
+}
+
+
+main .right {
+	float: right;
+	background: url('/images/on_main.png') no-repeat 0 0;
+	width: 748px;
+	min-height: 871px;
+	margin: 0px;
+}
+
+main .contact {
+	width: 304px;
+	height: 180px;
+	padding: 17px 10px;
+	margin: 360px 0 0 37px;
+}
+
+main .contact p {
+	color: #ed1c24;
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    line-height: 20px;
+	text-align: right;
+}
+
+main .contact p span {
+	color: #ed1c24;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 18px;
+}
+
+/* ------ */
+/* FOOTER */
+/* ------ */
+
+footer {
+	background: url('/images/footer_bg.png') repeat-x center 33px transparent;
+	width: 100%;
+	height: 143px;
+	margin: 110px auto 0;
+}
+
+footer .contacts {
+	width: 1170px;
+	color: #5b5a5a;
+    font-family: "Trebuchet MS";
+    font-size: 17px;
+	line-height: 19px;
+	text-decoration: none;
+	margin: 0px auto;
+}
+
+footer .contacts span {
+	color: #ed1c24;
+    font-family: "Trebuchet MS";
+    font-size: 17px;
+}
+
+footer .footer_bottom {
+	width: 1170px;
+	margin: 38px auto;
+}
+
+footer .copyright {
+	float: left;
+	width: 600px;
+	color: #fff;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+	line-height: 16px;
+}
+
+footer .creator {
+	float: right;
+	width: 135px;
+	color: #fff;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+	line-height: 14px;
+}
+
+footer .creator a {
+	color: #d2d2d2;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+	text-decoration: none;
+}

@@ -1,0 +1,804 @@
+/* Verstal: V V P */
+/* portnovlaboratory.ru */
+
+/* General styles */
+
+html {
+	width: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+* {
+	margin: 0px;
+}
+
+body {
+	width: 100%;
+}
+
+* {
+	-moz-box-sizing: border-box; /* Для Firefox */  
+	box-sizing: border-box; /* Ширина блока с полями */
+}
+
+.clear_div {
+	clear: both;
+}
+
+/* ------ */
+/* HEADER */
+/* ------ */
+
+header {
+	background: transparent;
+	width: 1170px;
+	height: 60px;
+	margin: 53px auto 64px;
+}
+
+header .contacts {
+	width: 1170px;
+	color: #5b5a5a;
+    font-family: "Trebuchet MS";
+    font-size: 17px;
+	line-height: 19px;
+	text-decoration: none;
+	margin: -38px 0 16px;
+}
+
+header .contacts span {
+	color: #ed1c24;
+    font-family: "Trebuchet MS";
+    font-size: 17px;
+}
+
+/* LOGOTIP */
+
+#logotip {
+	float: left;
+	width: 650px;
+	height: 60px;
+	margin: 16px 0;
+}
+
+#logotip .left {
+	float: left;
+	width: 260px;
+	height: 60px;
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 24px;
+	line-height: 30px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+#logotip .left span{
+	color: #b6b6b6;
+	text-align: left;
+	margin-right: 85px;
+}
+
+#logotip .center {
+    display: block;
+    float: left;
+    background: url("/images/logo.png") no-repeat scroll 13px 0 #fff;
+    height: 158px;
+    margin: -2px 0 0 -10px;
+    width: 207px;
+}
+
+#logotip .right {
+	float: left;
+	width: 170px;
+	height: 60px;
+	color: #b0b0b0;
+    font-family: "Trebuchet MS";
+    font-size: 17px;
+	line-height: 26px;
+	text-align: left;
+	margin: 8px 0 0;
+}
+
+#logotip .right span{
+	color: #636363;
+}
+
+/* TOP MENU */
+
+#top_menu {
+	float: left;
+	position: relative;
+	width: 490px;
+	height: 60px;
+	margin-left: 30px;
+}
+
+#top_menu ul {
+	width: 490px;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#top_menu ul li {
+	float: left;
+	display: inline-block;
+	background: url('/images/marker_normal.png') no-repeat 0 8px transparent;
+	width: 150px;
+	height: 26px;
+	padding: 0 0 0 15px;
+}
+
+#top_menu ul li:nth-child(2) {
+	width: 160px;
+	margin: 0px 85px 0 0;
+}
+
+#top_menu ul li:nth-child(4), #top_menu ul li:nth-child(7) {
+	width: 210px;
+	margin: 0px 20px 0 0;
+}
+
+#top_menu ul li:nth-child(5), #top_menu ul li:nth-child(8) {
+	width: 110px;
+}
+
+#top_menu ul li a {
+    display: block;
+    line-height: 20px;
+	color: #c4161c;
+    font-family: "Trebuchet MS";
+    font-size: 15px;
+	text-decoration: none;
+}
+
+#top_menu ul li.active {
+	background: url('/images/marker_active.png') no-repeat 0 8px transparent;
+}
+
+#top_menu ul li:hover a {
+	color: #494848;
+}
+
+#top_menu .soc_ico {
+	float: right;
+	position: absolute;
+	width: 140px;
+	height: 26px;
+	z-index: 100;
+	margin: -35px 0 0 355px;
+}
+
+#top_menu .soc_ico-1 {
+	float: left;
+	display: block;
+	background: url('/images/soc_ico1.png') no-repeat 0 0;
+	width: 26px;
+	height: 26px;
+	margin-right: 10px;
+}
+
+#top_menu .soc_ico-1:hover {
+	background: url('/images/soc_ico1-over.png') no-repeat 0 0;
+}
+
+#top_menu .soc_ico-2 {
+	float: left;
+	display: block;
+	background: url('/images/soc_ico2.png') no-repeat 0 0;
+	width: 26px;
+	height: 26px;
+	margin-right: 10px;
+}
+
+#top_menu .soc_ico-2:hover {
+	background: url('/images/soc_ico2-over.png') no-repeat 0 0;
+}
+
+#top_menu .soc_ico-3 {
+	float: left;
+	display: block;
+	background: url('/images/soc_ico3.png') no-repeat 0 0;
+	width: 26px;
+	height: 26px;
+	margin-right: 10px;
+}
+
+#top_menu .soc_ico-3:hover {
+	background: url('/images/soc_ico3-over.png') no-repeat 0 0;
+}
+
+#top_menu .soc_ico-4 {
+	float: left;
+	display: block;
+	width: 26px;
+	height: 26px;
+	background: url('/images/soc_ico4.png') no-repeat 0 0;
+}
+
+#top_menu .soc_ico-4:hover {
+	background: url('/images/soc_ico4-over.png') no-repeat 0 0;
+}
+
+.line_header_1 {
+	background: url('/images/patterrn_LEFT.gif') repeat-x center top transparent;
+	width: 100%;
+	height: 14px;
+}
+
+.wrap_line_2 {
+	position: relative;
+	background-color: #fff;
+	width: 1170px;
+	margin: 28px auto 22px;
+}
+
+.line_header_2 {
+	float: left;
+	background: url('/images/line_header_2.png') no-repeat 0 0 transparent;
+	width: 260px;
+	height: 14px;
+}
+
+.title_page {
+	position: relative;
+	float: left;
+	background: url('/images/marker_title.png') no-repeat 14px 0 #fff;
+	padding: 0 0 0 35px;
+	width: 800px;
+	height: 30px;
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 28px;
+	text-align: left;
+	margin: -15px 0 0 0;
+}
+
+/* ---- */
+/* MAIN */
+/* ---- */
+
+main {
+	background: transparent;
+	width: 1170px;
+	margin: 0px auto;
+}
+
+main p {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 18px;
+	text-align: justify;
+	margin-bottom: 23px;
+}
+
+/* PRODUCTS */
+
+main .products {
+	position: absolute;
+	background: url('/images/products.png') no-repeat 0 0;
+	width: 659px;
+	height: 669px;
+	margin: 5px 0 0 512px;
+}
+
+main p.products_p1 {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 19px;
+	text-align: left;
+	width: 830px;
+	margin-bottom: 65px;
+}
+
+main p.products_p2 {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 19px;
+	text-align: left;
+	width: 500px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+main ul.products_p3 {
+	width: 510px;
+	margin: 0 0 30px -40px;
+	list-style: disc inside none;
+}
+
+main ul.products_p3 li {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 19px;
+	text-align: left;
+	margin: 0px;
+}
+
+main p.products_p4 {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 19px;
+	text-align: justify;
+	width: 580px;
+	margin-bottom: 70px;
+}
+
+main p.products_p5 {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 19px;
+	text-align: justify;
+	width: 820px;
+	margin-bottom: 20px;
+}
+
+main .line_products {
+	background: url('/images/line_products.png') no-repeat 0 0;
+	width: 820px;
+	height: 14px;
+	margin-top: 23px;
+}
+
+main .doll-products {
+	position: relative;
+	background: url('/images/doll-products.png') no-repeat 0 0;
+	width: 270px;
+	height: 339px;
+	margin: -33px 0 -120px 450px;
+}
+
+/* ANNOUNCEMENT */
+
+main .exclamation {
+	float: left;
+	width: 110px;
+	height: 413px;
+	margin: 27px 30px 10px 60px;
+}
+
+main .announcement {
+	float: left;
+	width: 910px;
+	margin-top: 23px;
+}
+
+main .announcement p {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    line-height: 20px;
+	text-align: justify;
+	margin-bottom: 23px;
+}
+
+main .announcement p span {
+	color: #ed1c24;
+}
+
+main .line_announcement {
+	background: url('/images/line_announcement.png') no-repeat 0 0;
+	width: 1171px;
+	height: 14px;
+	margin-top: 205px;
+}
+
+main .doll-announcement {
+	position: relative;
+	background: url('/images/doll-announcement.png') no-repeat 0 0;
+	width: 252px;
+	height: 370px;
+	margin: -233px 0 -100px 280px;
+}
+
+/* NEWS_LIST */
+
+main .news_anons {
+	overflow: hidden;
+	float: left;
+	width: 555px;
+	height: 200px;
+	margin: 40px 60px 0 0;
+}
+
+main .news_anons:nth-child(2n) {
+	margin-right: 0px;
+}
+
+main .newsmaker {
+	display: block;
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 19px;
+    line-height: 21px;
+	text-decoration: none;
+	margin: 0px 0 0px;
+}
+
+main .title_news-anons {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 18px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+main p.text_news-anons {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+	line-height: 18px;
+	text-align: justify;
+	margin: 20px 0 0px;
+}
+
+main p.text_news-anons:first-line {
+	color: #c4161c;
+}
+
+/* PAGINAVI */
+
+main font.text {
+	display: block;
+	text-align: center;
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+	margin: 20px 0px 0;
+}
+
+main font.text span {
+	font-weight: bold;
+	margin: 0 15px;
+}
+
+main font.text b {
+	display: inline-block;
+	background: url('/images/page_active.png') repeat-x center 0px transparent;
+	text-align: center;
+	width: 43px;
+	height: 43px;
+	color: #000;
+    font-family: "Trebuchet MS";
+	font-weight: bold;
+    font-size: 16px;
+	line-height: 40px;
+	margin: 0 5px;
+}
+
+main font.text a {
+	display: inline-block;
+	width: 43px;
+	text-align: center;
+	color: #c4161c;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+	text-decoration: none;
+}
+
+main font.text a:hover {
+	color: #494848;
+	text-decoration: none;
+}
+
+/* NEWS_ONE */
+
+main .block_arrow {
+	display: block;
+	float: left;
+	width: 83px;
+	height: 100px;
+	text-align: right;
+	color: #c4161c;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+	text-decoration: none;
+	margin: 30px 70px 0 10px;
+}
+
+main .block_arrow:hover {
+	color: #494848;
+}
+
+main .news_one {
+	float: left;
+	width: 850px;
+	margin: 30px 0px 0 0;
+}
+
+/* ABOUT */
+
+main .about {
+	float: left;
+	width: 540px;
+	margin: 25px 0px 10px 0px;
+}
+
+main .about p {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 18px;
+	text-align: justify;
+	margin-bottom: 23px;
+}
+
+main .bandana_about {
+	position: relative;
+	float: right;
+	width: 618px;
+	height: 626px;
+	margin: -40px 0 20px 0px;
+	z-index: 100;
+}
+
+main .line_about {
+	background: url('/images/line_about.png') no-repeat 0 0;
+	width: 864px;
+	height: 75px;
+	margin-top: 10px;
+}
+
+/* WORKING */
+
+main .working {
+	background: url('/images/dress-working.png') no-repeat 0 6px;
+	width: 1171px;
+	height: 482px;
+	padding: 0px 400px 0 0;
+	margin: 25px 0px 10px 0px;
+}
+
+main .working p {
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 18px;
+	text-align: justify;
+	margin-bottom: 23px;
+}
+
+main .text_working {
+	background: url('/images/text_working.png') no-repeat 0 0;
+	padding: 0px 0 0px 625px;
+	width: 800px;
+	height: 58px;
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 19px;
+    line-height: 56px;
+	text-align: justify;
+	margin: -45px 0 10px;
+}
+
+main .text_working span {
+	color: #ed1c24;
+}
+
+/* FEEDBACK */
+
+main .line_feedback {
+	background: url('/images/line_announcement.png') no-repeat 0 0;
+	width: 1171px;
+	height: 14px;
+	margin-top: 8px;
+}
+
+/* ------ */
+/* FOOTER */
+/* ------ */
+
+footer {
+	background: url('/images/footer_bg.png') repeat-x center 0px transparent;
+	width: 100%;
+	height: 110px;
+	margin: 110px auto 0;
+}
+
+footer .footer_bottom {
+	width: 1170px;
+	margin: 38px auto;
+	padding: 26px 0;
+}
+
+footer .copyright {
+	float: left;
+	width: 600px;
+	color: #fff;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+	line-height: 16px;
+}
+
+footer .creator {
+	float: right;
+	width: 135px;
+	color: #fff;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+	line-height: 14px;
+}
+
+footer .creator a {
+	color: #d2d2d2;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+	text-decoration: none;
+}
+
+/* Fotorama 4.4.9 | http://fotorama.io/license/ */
+
+.fotorama__stage__shaft,.fotorama__stage__frame,.fotorama__html,.fotorama__video iframe {position:absolute;width:100%;height:100%;top:0;right:0;left:0;bottom:0}
+.fotorama--fullscreen,.fotorama__img {max-width:99999px!important;max-height:99999px!important;min-width:0!important;min-height:0!important;border-radius:0!important;box-shadow:none!important;padding:0!important}
+.fotorama__wrap .fotorama__grab {cursor:move;cursor:-webkit-grab;cursor:-moz-grab;cursor:-o-grab;cursor:-ms-grab;cursor:grab}
+.fotorama__wrap {margin: auto;}
+.fotorama__grabbing *{cursor:move;cursor:-webkit-grabbing;cursor:-moz-grabbing;cursor:-o-grabbing;cursor:-ms-grabbing;cursor:grabbing}
+.fotorama__img,.fotorama__spinner {position:absolute!important;top:50%!important;left:50%!important}
+.fotorama__img {margin:-50% 0 0 -50%;width:100%;height:100%}
+.fotorama__wrap--css3 .fotorama__stage__shaft,.fotorama__wrap--css3 .fotorama__nav__shaft,.fotorama__wrap--css3 .fotorama__thumb-border,.fotorama__wrap--css3 .fotorama__arr,.fotorama__wrap--css3 .fotorama__fullscreen-icon,.fotorama__wrap--css3 .fotorama__video-play,.fotorama__wrap--css3 .fotorama__video-close {-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+.fotorama__wrap--css3 .fotorama__spinner,.fotorama__wrap--css3 .fotorama__stage,.fotorama__wrap--css3 .fotorama__nav,.fotorama__wrap--css3 .fotorama__stage__frame,.fotorama__wrap--css3 .fotorama__stage .fotorama__img,.fotorama__wrap--css3 .fotorama__html,.fotorama__wrap--css3 .fotorama__caption,.fotorama__stage:before,.fotorama__stage:after,.fotorama__nav:before,.fotorama__nav:after {-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0)}
+.fotorama__wrap--video .fotorama__stage__shaft,.fotorama__wrap--video .fotorama__stage,.fotorama__wrap--video .fotorama__stage__frame--video,.fotorama__wrap--video .fotorama__stage__frame--video .fotorama__img,.fotorama__wrap--video .fotorama__stage__frame--video .fotorama__html,.fotorama__wrap--video .fotorama__stage__frame--video .fotorama__caption {-webkit-transform:none!important;-ms-transform:none!important;transform:none!important}
+.fotorama__wrap--css3 .fotorama__stage__shaft,.fotorama__wrap--css3 .fotorama__nav__shaft,.fotorama__wrap--css3 .fotorama__thumb-border {-webkit-transition-property:-webkit-transform;transition-property:transform;-webkit-transition-timing-function:cubic-bezier(0.1,0,.25,1);transition-timing-function:cubic-bezier(0.1,0,.25,1);-webkit-transition-duration:0ms;transition-duration:0ms}
+.fotorama__wrap,.fotorama__no-select,.fotorama__arr,.fotorama__fullscreen-icon,.fotorama__video-play,.fotorama__video-close {-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.fotorama__select {-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text}
+.fotorama__nav,.fotorama__nav__frame {margin:0;padding:0}
+.fotorama__nav__shaft,.fotorama__nav__frame,.fotorama__caption__wrap {display:-moz-inline-box;-moz-box-orient:vertical;display:inline-block;vertical-align:middle;*display:inline;*zoom:1}
+.fotorama__wrap *{-moz-box-sizing:content-box;box-sizing:content-box}
+.fotorama__caption__wrap {-moz-box-sizing:border-box;box-sizing:border-box}
+.fotorama--hidden,.fotorama__load {position:absolute;left:-99999px;top:-99999px;z-index:-1}
+.fotorama__stage__shaft,.fotorama__stage__frame,.fotorama__nav,.fotorama__nav__shaft,.fotorama__nav__frame,.fotorama__arr,.fotorama__fullscreen-icon,.fotorama__video-play,.fotorama__video-close {-webkit-tap-highlight-color:rgba(0,0,0,0)}
+.fotorama__arr,.fotorama__fullscreen-icon,.fotorama__video-play,.fotorama__video-close {background:url(/images/fotorama/fotorama.png) no-repeat}
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi){
+ 	.fotorama__arr,.fotorama__fullscreen-icon,.fotorama__video-play,.fotorama__video-close {background:url(/images/fotorama/fotorama@2x.png) no-repeat;background-size:96px 160px}
+	}
+.fotorama__thumb {background-color:#7f7f7f;background-color:rgba(127,127,127,.2)}
+.fotorama {min-width:1px;overflow:hidden}
+.fotorama > .fotorama__wrap {visibility:visible;}
+.fotorama--hidden-before-ready > * {visibility:hidden}
+.fullscreen {width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;margin:0!important;padding:0!important;overflow:hidden!important;background:#000}
+.fotorama--fullscreen {position:absolute!important;top:0!important;left:0!important;right:0!important;bottom:0!important;float:none!important;z-index:2147483647!important;background:#000;width:100%!important;height:100%!important;margin:0!important}
+.fotorama--fullscreen .fotorama__stage,.fotorama--fullscreen .fotorama__nav {background:#000}
+.fotorama__wrap {-webkit-text-size-adjust:100%;position:relative;direction:ltr}
+.fotorama__wrap--rtl .fotorama__stage__frame {direction:rtl}
+.fotorama__stage,.fotorama__nav {overflow:hidden;position:relative;max-width:100%}
+.fotorama__wrap--pan-y{-ms-touch-action:pan-y}
+.fotorama__wrap .fotorama__pointer {cursor:pointer}
+.fotorama__wrap--slide .fotorama__stage__frame {opacity:1!important}
+.fotorama__stage__frame {overflow:hidden}
+.fotorama__stage__frame.fotorama__active {z-index:8}
+.fotorama__wrap--fade .fotorama__stage__frame {display:none}
+.fotorama__wrap--fade .fotorama__stage__frame.fotorama__active,.fotorama__wrap--fade .fotorama__fade-front,.fotorama__wrap--fade .fotorama__fade-rear {display:block;left:0;top:0}
+.fotorama__wrap--fade .fotorama__fade-front {z-index:8}
+.fotorama__wrap--fade .fotorama__fade-rear {z-index:7}
+.fotorama__wrap--fade .fotorama__fade-rear.fotorama__active {z-index:9}
+.fotorama__wrap--fade .fotorama__stage .fotorama__shadow {display:none}
+.fotorama__img {-ms-filter:"alpha(Opacity=0)";filter:alpha(opacity=0);opacity:0;border:0!important}
+.fotorama__loaded .fotorama__img,.fotorama__error .fotorama__img {-ms-filter:"alpha(Opacity=100)";filter:alpha(opacity=100);opacity:1}
+.fotorama__img--full {display:none}
+.fotorama--fullscreen .fotorama__loaded--full .fotorama__img {display:none}
+.fotorama--fullscreen .fotorama__loaded--full .fotorama__img--full {display:block}
+.fotorama__wrap--only-active .fotorama__stage,.fotorama__wrap--only-active .fotorama__nav {max-width:99999px!important}
+.fotorama__wrap--only-active .fotorama__stage__frame {visibility:hidden}
+.fotorama__wrap--only-active .fotorama__stage__frame.fotorama__active {visibility:visible}
+.fotorama__nav {font-size:0;line-height:0;text-align:center;display:none;white-space:nowrap;z-index:5}
+.fotorama__nav__shaft {position:relative;left:0;top:0;text-align:left}
+.fotorama__nav__frame {position:relative;cursor:pointer}
+.fotorama__nav--dots {display:block}
+.fotorama__nav--dots .fotorama__nav__frame {width:18px;height:30px}
+.fotorama__nav--dots .fotorama__nav__frame--thumb,.fotorama__nav--dots .fotorama__thumb-border {display:none}
+.fotorama__nav--thumbs {display:block}
+.fotorama__nav--thumbs .fotorama__nav__frame {padding-left:0!important}
+.fotorama__nav--thumbs .fotorama__nav__frame:last-child {padding-right:0!important}
+.fotorama__nav--thumbs .fotorama__nav__frame--dot {display:none}
+.fotorama__dot {display:block;width:4px;height:4px;position:relative;top:12px;left:6px;border-radius:6px;border:1px solid}
+.fotorama__nav__frame.fotorama__active {pointer-events:none;cursor:default}
+.fotorama__nav__frame.fotorama__active .fotorama__dot {width:6px;height:6px;border:0}
+.fotorama__dot {border-color:#7f7f7f}
+.fotorama__active .fotorama__dot {background-color:#7f7f7f}
+.fotorama__thumb {overflow:hidden;position:relative;width:100%;height:100%}
+.fotorama__thumb-border {position:absolute;z-index:9;top:0;left:0;border-style:solid;border-color:#00afea;background-image:-webkit-linear-gradient(top left,rgba(255,255,255,.25),rgba(64,64,64,.1));background-image:linear-gradient(to bottom right,rgba(255,255,255,.25),rgba(64,64,64,.1))}
+.fotorama__caption {position:absolute;z-index:12;bottom:0;left:0;right:0;font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:1.5;color:#000}
+.fotorama__caption a {text-decoration:none;color:#000;border-bottom:1px solid;border-color:rgba(0,0,0,.5)}
+.fotorama__caption a:hover {color:#333;border-color:rgba(51,51,51,.5)}
+.fotorama__wrap--rtl .fotorama__caption {left:auto;right:0}
+.fotorama__caption__wrap {background-color:#fff;background-color:rgba(255,255,255,.9);padding:5px 10px}
+ 
+@-webkit-keyframes spinner{
+	0% {-webkit-transform:rotate(0);transform:rotate(0)}
+	100% {-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+
+@keyframes spinner {
+ 	0% {-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}
+	100% {-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
+}
+
+.fotorama__wrap--css3 .fotorama__spinner {-webkit-animation:spinner 24s infinite linear;animation:spinner 24s infinite linear}
+.fotorama__wrap--css3 .fotorama__stage .fotorama__img,.fotorama__wrap--css3 .fotorama__html,.fotorama__wrap--css3 .fotorama__caption {-webkit-transition-property:opacity;transition-property:opacity;-webkit-transition-timing-function:linear;transition-timing-function:linear;-webkit-transition-duration:.3s;transition-duration:.3s}
+.fotorama__wrap--video .fotorama__stage__frame--video .fotorama__img,.fotorama__wrap--video .fotorama__stage__frame--video .fotorama__html,.fotorama__wrap--video .fotorama__stage__frame--video .fotorama__caption {-ms-filter:"alpha(Opacity=0)";filter:alpha(opacity=0);opacity:0}
+.fotorama__select {cursor:auto}
+.fotorama__video {top:32px;right:0;bottom:0;left:0;position:absolute;z-index:10}
+
+@-moz-document url-prefix(){
+	.fotorama__active{box-shadow:0 0 0 transparent}
+}
+
+.fotorama__arr,.fotorama__fullscreen-icon,.fotorama__video-play,.fotorama__video-close {display:block;position:absolute;z-index:11;cursor:pointer}
+.fotorama__arr {position:absolute;width:32px;height:32px;top:50%;margin-top:-16px}
+.fotorama__arr--prev {left:0;background-position:0 0}
+.fotorama__arr--next {right:0;background-position:-32px 0}
+.fotorama__arr--disabled {pointer-events:none;cursor:default;*display:none;opacity:.1}
+.fotorama__fullscreen-icon {width:32px;height:32px;top:0;right:0;background-position:0 -32px;z-index:20}
+.fotorama--fullscreen .fotorama__fullscreen-icon {background-position:-32px -32px}
+.fotorama__video-play {width:96px;height:96px;left:50%;top:50%;margin-left:-48px;margin-top:-48px;background-position:0 -64px;display:none}
+.fotorama__wrap--css3 .fotorama__video-play {display:block;opacity:0}
+.fotorama__loaded .fotorama__video-play,.fotorama__error .fotorama__video-play {display:block;opacity:1}
+.fotorama__nav__frame .fotorama__video-play {width:32px;height:32px;margin-left:-16px;margin-top:-16px;background-position:-64px -32px;opacity:1!important;display:block!important}
+.fotorama__video-close {width:32px;height:32px;top:0;right:0;display:none;background-position:-64px 0;z-index:20}
+.fotorama__wrap--no-controls .fotorama__arr,.fotorama__wrap--no-controls .fotorama__fullscreen-icon,.fotorama__wrap--video .fotorama__arr,.fotorama__wrap--video .fotorama__fullscreen-icon {display:none;opacity:0}
+.fotorama__wrap--css3.fotorama__wrap--slide.fotorama__wrap--no-controls .fotorama__fullscreen-icon,.fotorama__wrap--css3.fotorama__wrap--video .fotorama__fullscreen-icon {display:block;-webkit-transform:translate3d(32px,-32px,0);-ms-transform:translate3d(32px,-32px,0);transform:translate3d(32px,-32px,0)}
+.fotorama__wrap--css3.fotorama__wrap--slide.fotorama__wrap--no-controls .fotorama__arr--prev,.fotorama__wrap--css3.fotorama__wrap--video .fotorama__arr--prev {display:block;-webkit-transform:translate3d(-48px,0,0);-ms-transform:translate3d(-48px,0,0);transform:translate3d(-48px,0,0)}
+.fotorama__wrap--css3.fotorama__wrap--slide.fotorama__wrap--no-controls .fotorama__arr--next,.fotorama__wrap--css3.fotorama__wrap--video .fotorama__arr--next {display:block;-webkit-transform:translate3d(48px,0,0);-ms-transform:translate3d(48px,0,0);transform:translate3d(48px,0,0)}
+.fotorama__wrap--video .fotorama__stage .fotorama__video-play {display:none}
+.fotorama__wrap--video .fotorama__video-close {display:block}
+.fotorama__wrap--css3 .fotorama__video-close {display:block;opacity:0;-webkit-transform:translate3d(32px,-32px,0);-ms-transform:translate3d(32px,-32px,0);transform:translate3d(32px,-32px,0)}
+.fotorama__wrap--css3.fotorama__wrap--video .fotorama__stage .fotorama__video-play {display:block;opacity:0;z-index:-1}
+.fotorama__wrap--css3.fotorama__wrap--video .fotorama__video-close {opacity:1;-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+.fotorama__wrap--css3 .fotorama__arr,.fotorama__wrap--css3 .fotorama__fullscreen-icon,.fotorama__wrap--css3 .fotorama__video-play,.fotorama__wrap--css3 .fotorama__video-close {-webkit-transition-property:-webkit-transform,opacity;transition-property:transform,opacity;-webkit-transition-duration:.3s;transition-duration:.3s}
+.fotorama__stage:before,.fotorama__stage:after,.fotorama__nav:before,.fotorama__nav:after {content:"";display:block;position:absolute;text-decoration:none;top:0;bottom:0;width:10px;height:auto;z-index:10;pointer-events:none;background-repeat:no-repeat;background-size:1px 100%,5px 100%}
+.fotorama__stage:before,.fotorama__nav:before {background-image:-webkit-linear-gradient(transparent,rgba(0,0,0,.2) 25%,rgba(0,0,0,.3) 75%,transparent),-webkit-radial-gradient(0 50%,farthest-side,rgba(0,0,0,.4),transparent);background-image:linear-gradient(transparent,rgba(0,0,0,.2) 25%,rgba(0,0,0,.3) 75%,transparent),radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.4),transparent);background-position:0 0,0 0;left:-10px}
+.fotorama__stage.fotorama__shadows--left:before,.fotorama__nav.fotorama__shadows--left:before {left:0}
+.fotorama__stage:after,.fotorama__nav:after {background-image:-webkit-linear-gradient(transparent,rgba(0,0,0,.2) 25%,rgba(0,0,0,.3) 75%,transparent),-webkit-radial-gradient(100% 50%,farthest-side,rgba(0,0,0,.4),transparent);background-image:linear-gradient(transparent,rgba(0,0,0,.2) 25%,rgba(0,0,0,.3) 75%,transparent),radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.4),transparent);background-position:100% 0,100% 0;right:-10px}
+.fotorama__stage.fotorama__shadows--right:after,.fotorama__nav.fotorama__shadows--right:after{right:0}
+.fotorama--fullscreen .fotorama__stage:before,.fotorama--fullscreen .fotorama__stage:after,.fotorama--fullscreen .fotorama__nav:before,.fotorama--fullscreen .fotorama__nav:after,.fotorama__wrap--no-shadows .fotorama__stage:before,.fotorama__wrap--no-shadows .fotorama__stage:after,.fotorama__wrap--no-shadows .fotorama__nav:before,.fotorama__wrap--no-shadows .fotorama__nav:after,.fotorama__wrap--fade .fotorama__stage:before,.fotorama__wrap--fade .fotorama__stage:after {display:none}
+
+/* Дополнительная большая иконка видео */
+
+.fotorama {
+	background: url('/images/bg_photogalery.png') no-repeat 0px 0px transparent;
+	width: 1170px;
+	margin-top: 30px;
+}
+
+.fotorama__nav--thumbs {
+	width: 1170px !important;
+}
+
+.fotorama_navigate {
+	background-color: #e6e6e6;
+	width: 1170px;
+	height: 24px;
+	margin: 10px 0 0 0;
+}
+
+.fotorama_navigate .arrow_block {
+	position: relative;
+	width: 378px;
+	height: 31px;
+	margin: 0px auto;
+}
+
+.fotorama_navigate .arrow_block .fotorama__arr--prev {
+	float: left;
+	background: url('/images/arrow_photogalery-left.png') no-repeat 0px 0px transparent;
+	width: 165px;
+	height: 24px; 
+}
+
+.fotorama_navigate .arrow_block .fotorama__arr--next {
+	float: right;
+	background: url('/images/arrow_photogalery-right.png') no-repeat 0px 0px transparent;
+	width: 165px;
+	height: 24px; 
+}
